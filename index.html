@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Frontend Mentor | Intro Component With Sign Up Form</title>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="hero">
+            <h1 class="main-heading animate__animated animate__fadeInDown">Learn to code by watching others.</h1>
+            <p class="paragraph animate__animated animate__fadeInUp">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+        </div>
+
+        <div class="cta">
+            <div class="feature animate__animated animate__fadeIn"><span>Try it free 7 days</span> then $20/mo. thereafter.</div>
+            <form action="#" method="POST" class="form">
+                <div class="input-wrapper animate__animated animate__fadeIn">
+                    <input required type="text" name="first-name" id="first-name" placeholder="First Name" class="form__first-name">
+                    <div class="validity-icon"></div>
+                </div>
+                <div class="input-wrapper animate__animated animate__fadeIn">
+                    <input required type="text" name="last-name" id="last-name" placeholder="Last Name" class="form__last-name">
+                    <div class="validity-icon"></div>
+                </div>
+                <div class="input-wrapper animate__animated animate__fadeIn">
+                    <input required type="email" name="email" id="email" placeholder="Email Address" class="form__email">
+                    <div class="validity-icon"></div>
+                </div>
+                <div class="input-wrapper animate__animated animate__fadeIn">
+                    <input required type="password" name="password" id="password" placeholder="Password" class="form__password">
+                    <div class="validity-icon"></div>
+                </div>
+                <div class="button-wrapper">
+                    <button type="submit" class="animate__animated animate__bounceIn">Claim Your Free Trial</button>
+                </div>
+                <p class="form__disclaimer animate__animated animate__fadeIn">By clicking the button, you are agreeing to our <a href="#">Terms and Services.</a></p>
+            </form>
+        </div>
+
+        <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/ApplePieGiraffe" target="_blank">ApplePieGiraffe</a>.</p>
+    </div>
+</body>
+</html>
