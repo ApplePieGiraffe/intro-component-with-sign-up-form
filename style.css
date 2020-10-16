@@ -206,6 +206,9 @@ body {
     font-weight: 700;
     text-decoration: none; }
 
+.hidden {
+  display: none; }
+
 .attribution {
   position: absolute;
   bottom: 4rem;
